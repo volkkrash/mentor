@@ -1,0 +1,30 @@
+.section-motivation {
+  color: var(--secondary-color);
+}
+.section-motivation .container {
+  flex-direction: column;
+  align-items: center;
+}
+.section-motivation span {
+  color: var(--primary-color);
+}
+.section-motivation .section-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-image: url('../img/motivation-bg.jpg');
+}
+.section-motivation .bg-decor {
+  z-index: -1;
+}
+.section-motivation .section-title {
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+.section-motivation .section-action {
+  margin-bottom: 5.5rem;
+}

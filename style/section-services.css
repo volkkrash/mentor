@@ -1,0 +1,30 @@
+
+.section-services {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  color: #2F80ED;
+}
+.section-services .container {
+  justify-content: center;
+}
+.section-services .section-body {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services-item .services-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.services-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 30px;
+  padding-bottom: 2rem;
+}
+.services-item-title {
+  font-size: 50px;
+}
+.services-item-subtitle {
+  font-size: 30px;
+}
