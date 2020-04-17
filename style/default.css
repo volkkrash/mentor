@@ -3,7 +3,8 @@ body {
     font-size: 20px;
 }
 h1,h2,h3,h4 {
-    font-family: 'Montserrat Bold', sans-serif;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-weight: 600;
     margin: 0;
 }
 p, a {
@@ -37,13 +38,21 @@ a:hover {
 .d-flex {
     display: flex;
 }
+.fd-c {
+    flex-direction: column;
+}
 
 /* section settings */
+.section {
+    padding-top: 110px;
+}
 .section-body {
     display: flex;
 }
 .section-title {
     font-size: 3.5rem;
+    color: var(--primary-color);
+    margin-left: 15.625%;
 }
 .section-outside {
     width: 8.5%;
@@ -57,6 +66,10 @@ a:hover {
     color: #FFFFFF;
     font-size: 40px;
     padding-left: 91px;
+}
+
+.secondary-color {
+    color: var(--secondary-color);
 }
 
 /* buttons */
@@ -77,4 +90,15 @@ a:hover {
     border-color: rgb(255, 255, 255,.3);
     transition: .5s ease;
     color: var(--secondary-color);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-body {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
 }

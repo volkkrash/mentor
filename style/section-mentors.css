@@ -1,0 +1,54 @@
+.cards-our-mentors {
+  color: var(--secondary-color);
+
+}
+.section-our-mentors .section-body {
+  padding-top: 3rem;
+}
+
+.cards-our-mentors .card-item {
+  height: 360px;
+  width: 577px;
+  margin: 11px;
+}
+.cards-our-mentors .card-img {
+  object-fit: cover;
+}
+.cards-our-mentors .card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.cards-our-mentors .card-text {
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  left: 37px;
+  right: 37px;
+  max-height: 50%;
+  overflow: hidden;
+}
+.card-title {
+  font-size: 1.5rem;
+}
+.card-subtitle {
+  display: inline;
+  font-size: 0.9rem;
+}
+.cards-our-mentors .card-action {
+  display: none;
+}
+.cards-our-mentors .card-item:hover .card-action {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0,0,0,.5);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
