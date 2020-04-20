@@ -1,0 +1,30 @@
+.footer-body {
+  width: 100%;
+  min-height: 165px;
+  background-color: var(--footer-bg);
+  display: flex;
+  justify-content: space-between;
+  padding: 22px;
+  color: var(--secondary-color);
+}
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+    width: 50%;
+}
+.footer-right, .footer-left {
+  width: 25%;
+}
+.copyright {
+  text-align: center;
+}
+.footer-nav .nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-nav li {
+  margin-left: 25px;
+}

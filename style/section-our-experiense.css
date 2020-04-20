@@ -1,0 +1,44 @@
+.section-our-experiense {
+
+}
+
+.card-our-experiense {
+  justify-content: flex-start;
+  height: 900px;
+  align-items: center;
+}
+.card-our-experiense .card-item {
+  position: relative;
+  flex-grow: 1;
+  margin: 0 10px 5px;
+
+}
+.card-our-experiense .card-item::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 50%;
+  left: 0;
+  top: 0;
+}
+.card-our-experiense .card-top {
+  border-left: 3px solid var(--primary-color);
+  height: 170px;
+  padding-left: 4rem;
+}
+.card-our-experiense .card-body {
+  padding-left: 4rem;
+}
+.card-our-experiense .card-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.card-our-experiense .card-description {
+  font-size: 1.1rem;
+  color: #6D6B6B;
+}
+
+.card-our-experiense .card-item:nth-child(1) {
+  align-content: flex-end;
+}

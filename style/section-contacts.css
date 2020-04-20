@@ -1,0 +1,33 @@
+.section-contacts .outside-title {
+  color: var(--primary-color);
+}
+.section-contacts .section-body {
+  width: 100%;
+}
+.section-contacts .section-body {
+  position: relative;
+}
+.contacts-card {
+  
+  position: absolute;
+  width: 60%;
+  right: 0;
+  background-color: #ffffff;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 80%;
+  padding: 68px 50px 60px;
+}
+
+.contacts-card .card-body {
+  display: flex;
+}
+.contacts-card .card-left, .contacts-card .card-right {
+  width: 50%;
+}
+.contacts-card .card-title {
+  font-size: 2.5rem;
+}
+.contacts-card .card-description {
+  font-size: 1rem;
+}
