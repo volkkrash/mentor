@@ -12,14 +12,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    
     width: 50%;
 }
 .footer-right, .footer-left {
+  padding-top: 28px;
   width: 25%;
 }
 .copyright {
   text-align: center;
+}
+.copyright a {
+  border-bottom: 1px solid var(--secondary-color);
+  font-family: 'Montserrat Bold';
 }
 .footer-nav .nav-list {
   display: flex;
@@ -27,4 +31,14 @@
 }
 .footer-nav li {
   margin-left: 25px;
+}
+.footer-logo {
+  margin-bottom: 1.6rem;
+}
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+}
+.socials .social-link {
+  margin-left: 30px;
 }

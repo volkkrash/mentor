@@ -31,3 +31,11 @@
 .contacts-card .card-description {
   font-size: 1rem;
 }
+.section-contacts .section-outside {
+  position: relative;
+}
+.section-contacts .outside-title {
+  position: absolute;
+  transform: translateX(calc(-50% + 54px)) rotate(-90deg);
+  bottom: 117px;
+}
